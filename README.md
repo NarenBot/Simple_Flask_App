@@ -25,7 +25,7 @@ CI/CD pipeline;
 
 Creating conda Environment:
 1. conda create -p venv python==3.7 -y
-2. conda activate venv/     --- in cmd tertminal
+2. conda activate venv/     --- in cmd terminal
 3. pip install -r requirements.txt
 
 -----------------------------------------------------------------------------------------------

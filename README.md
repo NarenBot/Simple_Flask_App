@@ -15,16 +15,16 @@
 3. Branching.[main branch, integration(replica) branch, release1, release2..]
     also resolve the code conflicts on same line of code.
 
-Docker: [Portability of own code]
-Containers -- Image concept -- Isolation
+1. Docker: [Portability of own code]
+2. Containers -- Image concept -- Isolation
 
-Continous Integration: Local --> Github
-Continous Deployment: Github with Trigger --> Docker image --> Cloud service(Publish app)
+1. Continous Integration: Local --> Github
+2. Continous Deployment: Github with Trigger --> Docker image --> Cloud service(Publish app)
 
 Creating conda Environment:
-conda create -p venv python==3.7 -y
-conda activate venv/     --- in cmd tertminal
-pip install -r requirements.txt
+1. conda create -p venv python==3.7 -y
+2. conda activate venv/     --- in cmd tertminal
+3. pip install -r requirements.txt
 
 -----------------------------------------------------------------------------------------------
 To Add files to git

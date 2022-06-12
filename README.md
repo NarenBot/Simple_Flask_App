@@ -15,9 +15,11 @@
 3. Branching.[main branch, integration(replica) branch, release1, release2..]
     also resolve the code conflicts on same line of code.
 
+Docker:
 1. Docker: [Portability of own code]
 2. Containers -- Image concept -- Isolation
 
+CI/CD pipeline;
 1. Continous Integration: Local --> Github
 2. Continous Deployment: Github with Trigger --> Docker image --> Cloud service(Publish app)
 

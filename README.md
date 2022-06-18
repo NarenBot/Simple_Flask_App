@@ -37,7 +37,7 @@ OR
 ```
 git add <file_name>
 ```
-Note: To ignore file or folder from git we can write name of file/folder in .gitignore file
+> Note: To ignore file or folder from git we can write name of file/folder in .gitignore file
 
 To check the git status
 ```
@@ -72,7 +72,7 @@ BUILD DOCKER IMAGE:
 ```
 docker build -t <image_name>:<tagname> .
 ```
-Note: Image name for docker must be lowercase
+> Note: Image name for docker must be lowercase
 
 To list docker image
 ```
@@ -91,3 +91,8 @@ To stop docker container
 docker stop <container_id>
 ```
 -----------------------------------------------------------------------------------------------
+
+To install setup file
+```
+python setup.py install
+```

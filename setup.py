@@ -11,6 +11,7 @@ REQUIREMENT_FILE_NAME = "requirements.txt"
 
 def get_requirements_list()->List[str]:
     """
+    eg:["pandas", "numpy"]
     Description: Returns all libraries present inside requirements.txt file.
     """
     with open(REQUIREMENT_FILE_NAME) as req_file:

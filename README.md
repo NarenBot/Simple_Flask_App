@@ -99,8 +99,15 @@ python setup.py install
 > Note: find_packages retieves the Folder name or Package, wherever __init__ modules are present.
     To use -e . we should use setup.py to install all internal and external packages.
 
+-----------------------------------------------------------------------------------------------
 
-
-
+Folder structure of Project:
+> housing:   /with __init__.py
+1. exception
+2. logger
+3. pipeline
+4. component
+5. config
+6. entity
 
 

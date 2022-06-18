@@ -103,8 +103,8 @@ python setup.py install
 
 Folder structure of Project:
 > housing:   /with __init__.py
-1. exception
-2. logger
+1. logger
+2. exception
 3. pipeline
 4. component
 5. config

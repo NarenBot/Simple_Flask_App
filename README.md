@@ -92,7 +92,15 @@ docker stop <container_id>
 ```
 -----------------------------------------------------------------------------------------------
 
-To install setup file
+To install setup file for requirements content
 ```
 python setup.py install
 ```
+> Note: find_packages retieves the Folder name or Package, wherever __init__ modules are present.
+    To use -e . we should use setup.py to install all internal and external packages.
+
+
+
+
+
+

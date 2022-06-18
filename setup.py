@@ -1,8 +1,8 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 from typing import List
 
 PROJECT_NAME = "housing-predictor"
-VERSION = "0.0.1"
+VERSION = "0.0.2"
 AUTHOR = "Naren"
 DESCRIPTION = "This is a housing prediction project"
 PACKAGES = ["housing"]
@@ -14,7 +14,7 @@ def get_requirements_list()->List[str]:
     Description: Returns all libraries present inside requirements.txt file.
     """
     with open(REQUIREMENT_FILE_NAME) as req_file:
-        req_file.readlines()
+        req_file.readlines().remove("-e .")
 
 
 setup(
@@ -22,7 +22,8 @@ setup(
     version = VERSION,
     author = AUTHOR,
     description = DESCRIPTION,
-    packages = PACKAGES,
+    packages = find_packages(),
     install_requires = get_requirements_list()
 
 )
+
